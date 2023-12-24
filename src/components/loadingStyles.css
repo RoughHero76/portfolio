@@ -1,0 +1,27 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #D9D9D9;
+  }
+  
+  .loading-gif {
+    width: 100%; /* SVG will fill the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 100%; /* Prevents the SVG from overflowing vertically */
+    object-fit: contain; /* Scales the SVG to fit while preserving aspect ratio */
+  }
+  
+/*   @media screen and (max-width: 768px) {
+    .loading-container {
+
+    }
+  
+    .loading-gif {
+ 
+    }
+  }
+   */
