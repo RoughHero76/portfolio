@@ -1,0 +1,104 @@
+.intro-container {
+    display: flex;
+    align-items: center;
+}
+
+.intro-content {
+    margin-left: 20px;
+}
+
+.intro-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+
+.skills-list {
+    margin-top: 10px; /* Adjust this value as needed to create space */
+    margin-left: +2%;
+}
+
+.skills-grid {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+}
+
+/* Style for each grid item */
+.skills-grid div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-grid img {
+    width: 50px; /* Adjust the width of the icons */
+    height: 50px; /* Adjust the height of the icons */
+}
+
+
+
+.experience-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+
+.mywork-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+
+.experience-list {
+
+    margin-top: 10px; /* Adjust this value as needed to create space */
+    margin-left: +2%;
+}
+
+.experience-list li b {
+    margin-bottom: 10px; /* Adjust the margin-bottom as needed */
+    display: block; /* Make the <b> element a block element */
+}
+
+.position {
+    text-align: justify; /* Justify the text */
+    margin-bottom: 20px; /* Add margin-bottom between <b> and <p> */
+}
+
+.responsibilities {
+    text-align: justify; /* Justify the text */
+    margin-left: 20px; /* Add margin to the left of the list */
+    /* Your other styles for .responsibilities */
+}
+
+.responsibilities li {
+    margin-bottom: 10px; /* Add margin-bottom between list items */
+}
+
